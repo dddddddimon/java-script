@@ -1,118 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=	, initial-scale=1.0" />
-    <title>My First Site!!!</title>
-    <link rel="stylesheet" href="styles.css" />
-</head>
+    <title>Головна Сторінка</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/boot/css/bootstrap.min.css" />
+    <script src="/boot/js/bootstrap.bundle.min.js"></script>
+  </head>
 
-<body>
-    <h3>Zmist</h3>
-    <ol>
-        <li><a href=""></a> rozdil1</li>
-        <li>rozdil2</li>
-        <li>rozdil3</li>
-        <li>rozdil4</li>
-        <li>rozdil5</li>
-        <li>rozdil6</li>
-    </ol>
-    <div>
-        <h1 id="top">TOP</h1>
-        <a href="#psss">Down</a>
-        <label>Age <input type="number" min="18" max="88" value="21"></label>
-    </div>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="top">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Домашні Завдання
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/HW1/maincontent.html"
+                    >Домашнє Завдання №1</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/HW2/hw2.html">Homework 2</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/TaskNumber3/tasknumber3.html"
+                    >Task Number 3</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-
-    <fieldset>
-        <legend>Car Selection</legend>
-        <label>BMW<input type="radio" name="auto"></label>
-        <label>Audi<input type="radio" name="auto"></label><br>
-        <button>Select</button>
-    </fieldset>
-
-
-    <fieldset>
-        <legend>Select your fav color</legend>
-        <label class="redcolor">Red <input type="radio" name="clr" id=""></label>
-        <label class="bluecolor">Blue <input type="radio" name="clr" id=""></label>
-        <label class="greencolor">Green <input type="radio" name="clr" id=""></label>
-    </fieldset>
-
-    <h2>Password</h2>
-    <div><label>Password <input type="password" name="" id=""></label></div>
-
-    <fieldset>
-        <legend>Select your dinner</legend>
-        <label>Tea
-            <input type="checkbox" name="DINNER" value="Tea" id="" disabled></label><br>
-        <label>Bread
-            <input type="checkbox" name="DINNER" value="Kapysta" id=""></label><br>
-        <label>Gre4ka
-            <input type="checkbox" name="DINNER" value="Kapysta" id=""></label><br>
-        <label>Otbivnaya
-            <input type="checkbox" name="DINNER" value="Kapysta" id=""></label><br>
-        <label>Kapysta
-            <input type="checkbox" name="DINNER" value="Kapysta" id=""></label><br>
-        <button>Buy</button>
-    </fieldset>
-
-    <div align="center">
-        <label for="">Select something</label><br>
-        <select name="category">
-            <optgroup label="Numbers">
-                <option value="444">444</option>
-                <option value="555">555</option>
-                <option value="666">666</option>
-                <option value="777">777</option>
-            </optgroup>
-            <optgroup label="Cars">
-                <option value="Lambo">Lambo</option>
-                <option value="Ferra">Ferra</option>
-                <option value="Fiat">Fiat</option>
-                <option value="VW">VW</option>
-            </optgroup>
-        </select><br>
-        <button>Select</button>
-    </div>
-
-    <div><Button class="buttonimg"></Button></div>
-
-
-    <div><input type="color" name="" id="">
-        <input type="date" name="" id="">
-
-    </div>
-
-
-    <div>
-        <a href="https://www.google.com/" target="_blank">Click Clack</a><br>
-        <a href="https://www.beatport.com/" target="_blank">Music</a><br>
-        <a href="https://www.olx.ua/dom-i-sad/q-%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%BC-%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%88%D0%BA%D1%83/"
-            target="_blank"></a>
-    </div>
-
-    <div>
-        <img width="150px" src="/img/t9ur9cc1khkup1dmcbzd.webp" alt="">
-
-    </div><br><br><br>
-
-    <div><button><a href="/about.html">Автор</a></button></div>
-
-    <div><a href="./HW1/hw1.html">Home Work 1</a></div>
-    <div><a href="./HW2/hw2.html">Home Work 2</a></div>
-
-
-
-
-
-    <div>
-        <h1 id="psss">gdfgdfgdgdfg</h1>
-    </div>
-
-    <a href="#top">TOP</a>
-</body>
-
+    <a class="topimg" href="#top">
+      <img width="50px" src="https://is.gd/sOCmO7" alt="" />
+    </a>
+  </body>
 </html>
