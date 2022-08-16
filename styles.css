@@ -95,3 +95,7 @@
 }
 
 /* up to top button */
+
+.topimg {
+  position: fixed;
+}
