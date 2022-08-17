@@ -26,7 +26,6 @@
   margin-top: 50px;
 }
 
-
 /* styles for HW1 */
 
 .maingroupinfo {
@@ -84,4 +83,19 @@
 
 .topbtn:hover {
   opacity: 100%;
+}
+
+/* HW2 styles */
+
+.welcometext {
+  margin-bottom: 10px;
+}
+
+.marginnav {
+  margin-bottom: 60px;
+}
+
+.aboutusbutton button a {
+  text-decoration: none;
+  color: white;
 }
