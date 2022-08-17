@@ -92,10 +92,23 @@
 }
 
 .marginnav {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .aboutusbutton button a {
+  text-decoration: none;
+  color: white;
+}
+
+.margintopcard {
+  margin-top: 100px;
+}
+
+.marginbottombutton {
+  margin-bottom: 10px;
+}
+
+.marginbottombutton button a {
   text-decoration: none;
   color: white;
 }
