@@ -61,41 +61,59 @@
   width: 50px;
 }
 
+/* styles for maincontent page */
+
 /* styles for HW1 */
 
 .maingroupinfo {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .groupname {
   color: blueviolet;
 }
 
-.maingrouptext {
-  margin: 0px 400px;
+.contents {
+  margin-bottom: 30px;
 }
 
 .firstdescription {
-  width: 60%;
-  text-align: center;
+  margin-bottom: 30px;
 }
 
 .seconddescription {
-  width: 60%;
-  text-align: right;
+  margin-bottom: 30px;
 }
 
 .thirddescription {
-  width: 60%;
-  text-align: left;
+  margin-bottom: 30px;
 }
 
 .solocareers {
   text-align: center;
 }
 
+.tours {
+  margin-bottom: 30px;
+}
+
+/* taks 3 styles */
+
+.task3name {
+  margin-bottom: 50px;
+  color: crimson;
+}
+
+/* about autor page */
+
 /* up to top button */
 
-.topimg {
-  position: fixed;
+.topbtn {
+  opacity: 30%;
+  transition: 0.5s;
+}
+
+.topbtn:hover {
+  opacity: 100%;
 }
