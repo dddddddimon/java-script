@@ -120,3 +120,20 @@
   text-decoration: none;
   color: white;
 }
+
+/* HW4 */
+
+.documentname {
+  color: blue;
+}
+
+.golovneword {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 200px;
+}
+
+.firstli {
+  color: aquamarine;
+}
