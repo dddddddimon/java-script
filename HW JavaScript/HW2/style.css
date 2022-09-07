@@ -1,0 +1,17 @@
+/* local */
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* task01 */
+
+.task01 {
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+}
