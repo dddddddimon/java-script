@@ -16,7 +16,9 @@ function randomnumbertask() {
   );
   if (user1 != random) {
     alert("Спробуйте ще раз!");
-    let user1 = parseInt(prompt(`Другий шанс вiдгадати! Пiдказка: ${random}`));
+    let user1 = parseInt(
+      prompt(`Другий i останнiй шанс вiдгадати! Пiдказка: ${random}`)
+    );
     if (user1 == random) {
       alert("Вiтаю! Ви виграли бублiк!");
     } else {
@@ -33,11 +35,9 @@ function guessTheNumber() {
   let user1 = parseInt(prompt(`Введи свiй варiант! Пiдказка: ${random}`));
   let guessnumber = Math.abs(random - user1);
   if (guessnumber > 10) {
-    alert("Ви Програли =( Спробуйте ще раз!");
+    alert("Ви Програли! Спробуйте ще раз!");
   } else if (guessnumber <= 10) {
-    alert(
-      `Ви Перемогли! Ось як близько Ви до згенерованого числа: ${guessnumber}`
-    );
+    alert(`Ви Перемогли! Згенероване число: ${random}; Ваше число: ${user1}`);
   }
 }
 
