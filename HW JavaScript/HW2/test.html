@@ -10,13 +10,20 @@
   </head>
   <body>
     <div>
+      <button><a href="/index.html">Головна</a></button>
+    </div>
+
+    <div>
       <h1>Додаткові завдання</h1>
     </div>
+
+    <!-- Гра: Обери настрiй. -->
 
     <div class="task01">
       <div>
         <h3>Завдання 0.1</h3>
       </div>
+      <div><h2>Натисни на кнопку i введи цифру відповідно до настрою!</h2></div>
       <div>
         <ol>
           <li>Happy</li>
@@ -24,19 +31,71 @@
           <li>Angry</li>
         </ol>
       </div>
-      <div>
-        <input
-          type="button"
-          value="Оберіть Свій настрій"
-          onclick="moodselection()"
-        />
+      <div class="btn">
+        <button onclick="moodselection()">Оберіть Свій настрій</button>
       </div>
       <div id="emojiplace"></div>
     </div>
 
-    <div>
-      <input type="button" value="asdasd" onclick="randomnumbertask()" />
-      <div id="congratulations"></div>
+    <!-- Гра: Вiдгадай число. -->
+
+    <div class="task2">
+      <div>
+        <h3>Завдання 1</h3>
+      </div>
+      <div><h2>Комп згенерував число від 1 до 5. Спробуй відгадати!</h2></div>
+      <div class="btn">
+        <button onclick="randomnumbertask()">Розпочати гру!</button>
+      </div>
+    </div>
+
+    <!-- Гра: Постарайся потрапити в промiжок чисел. -->
+
+    <div class="task3">
+      <div>
+        <h3>Завдання 1.1</h3>
+      </div>
+      <div>
+        <h2>
+          Комп згенерував число вiд 1 до 100. Якщо ти введеш число в радiусi +
+          або - 10 до загаданного - Ти перемiг!
+        </h2>
+      </div>
+      <div class="btn">
+        <button onclick="guessTheNumber()">Розпочати гру!</button>
+      </div>
+    </div>
+
+    <!-- Гра: Вiдгадай число в другом. -->
+
+    <div class="task3">
+      <div>
+        <h3>Завдання 2</h3>
+      </div>
+      <div>
+        <h2>
+          Комп згенерував число вiд 1 до 10. Двоє гравцiв надають свої
+          відповіді.<br />Виграє той, у кого число знаходиться ближче до
+          загаданого комп’ютером числа.
+        </h2>
+      </div>
+      <div class="btn">
+        <button onclick="user1VSuser2()">Розпочати гру!</button>
+      </div>
+    </div>
+
+    <!-- Гра: Морський бій. -->
+
+    <div class="task3">
+      <div>
+        <h3>Завдання 3</h3>
+      </div>
+      <div>
+        <h2>Морський бій.</h2>
+      </div>
+      <div class="btn">
+        <button onclick="seaButtle()">Розпочати гру!</button>
+      </div>
     </div>
   </body>
 </html>

@@ -4,7 +4,15 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
 h3 {
+  text-align: center;
+}
+
+.btn {
   text-align: center;
 }
 
@@ -14,4 +22,25 @@ h3 {
   border-width: 3px;
   border-color: black;
   border-style: solid;
+  padding-bottom: 10px;
+}
+
+/* task2 */
+
+.task2 {
+  margin-top: 20px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  padding-bottom: 10px;
+}
+
+/* task3 */
+
+.task3 {
+  margin-top: 20px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  padding-bottom: 10px;
 }
